@@ -1,12 +1,18 @@
 {
-  "name": "backend",
+  "name": "diamante-demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "diamante-sdk-js": "^1.0.3",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
 }
